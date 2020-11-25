@@ -10,7 +10,6 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/koansoftware" name="koan"/>
-  <remote fetch="https://github.com/engicam-stable" name="engicam"/>
 
   <project remote="yocto" name="poky" path="sources/poky"/>
   <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
@@ -18,7 +17,7 @@
   <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" name="Documentation" path="sources/Documentation"/>
-  <project remote="engicam" name="meta-engicam" path="sources/meta-engicam"/>
+  <project remote="koan" name="meta-engicam" path="sources/meta-engicam"/>
 
   <project remote="koan" name="koan-engicam-mx6-base" path="sources/base">
     <linkfile dest="README.md" src="README.md"/>
