@@ -37,3 +37,5 @@ After this step, you will be with everything need for build an image.
 ```
 bitbake -k core-image-minimal
 ```
+
+Copyright (C)2020 KOAN - <https://koansoftware.com>
