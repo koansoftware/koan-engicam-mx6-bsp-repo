@@ -16,6 +16,8 @@ $: mkdir ~/bin
 $: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 $: chmod a+x ~/bin/repo
 ```
+See [repo command reference](https://source.android.com/setup/develop/repo) for details
+
 
 ## Download the BSP source
 
