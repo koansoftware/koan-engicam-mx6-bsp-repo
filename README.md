@@ -1,5 +1,7 @@
 # Koan BSP for Engicam iMX6 - Yocto Project
 
+![engicam.com](https://www.engicam.com/grafiche/personalizzate/engicam2/style/images/logo.png)
+
 To get the BSP you need to have `repo` installed and use it as:
 
 ## Install the `repo` utility:
