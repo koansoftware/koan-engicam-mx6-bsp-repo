@@ -43,9 +43,17 @@ After this step, you will be with everything need for build an image.
 
 ## Build image
 
+As first test it is suggested to build the `core-minimal-image` provided by Poky Yocto 
+
 ```
 bitbake -k core-image-minimal
 ```
+In case you want to build the `engicam-test-hw` image, in order to use `firmware-imx` you need to accept the *Freescale EULA* at `/sources/meta-freescale/EULA`. Please read it and in case you accept it, write: `ACCEPT_FSL_EULA = "1"` in your `local.conf`.
+
+```
+bitbake -k engicam-test-hw
+```
+
 
 ## Notes
 
