@@ -45,8 +45,16 @@ After this step, you will be with everything need for build an image.
 bitbake -k core-image-minimal
 ```
 
-Contributing
--------
+## Notes
+
+This is a kit composed by these repositories
+
+* The repo setup (this one) : https://github.com/koansoftware/koan-engicam-mx6-bsp-repo
+* The base files : https://github.com/koansoftware/koan-engicam-mx6-base
+* The customized meta layer: https://github.com/koansoftware/meta-engicam
+
+## Contributing
+
 Please use GitHub (https://github.com/koansoftware/koan-engicam-mx6-bsp-repo) to submit issues or pull requests, or add to the documentation on the wiki. Contributions are welcome!
 
 ------
