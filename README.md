@@ -1,10 +1,15 @@
+![koansoftware.com](https://www.koansoftware.com/wp-content/uploads/2019/06/logo_head_3-300x138.jpg)
+
 # Koan BSP for Engicam iMX6 - Yocto Project
+
+This is the unofficial Yocto Project setup system for Engicam iMX6 boards family.
 
 ![engicam.com](https://www.engicam.com/grafiche/personalizzate/engicam2/style/images/logo.png)
 
-To get the BSP you need to have `repo` installed and use it as:
 
-## Install the `repo` utility:
+## Install the `repo` utility
+
+To get the BSP you need to have `repo` installed and use it as:
 
 ```
 $: mkdir ~/bin
@@ -12,7 +17,7 @@ $: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/
 $: chmod a+x ~/bin/repo
 ```
 
-## Download the BSP source:
+## Download the BSP source
 
 ```
 $: PATH=${PATH}:~/bin
@@ -40,4 +45,11 @@ After this step, you will be with everything need for build an image.
 bitbake -k core-image-minimal
 ```
 
-Copyright (C)2020 KOAN - <https://koansoftware.com>
+Contributing
+-------
+Please use GitHub (https://github.com/koansoftware/koan-engicam-mx6-bsp-repo) to submit issues or pull requests, or add to the documentation on the wiki. Contributions are welcome!
+
+------
+
+(C)2020 Copyright - KOAN sas - <https://koansoftware.com>
+
